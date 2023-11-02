@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<!-- 這是註解 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="key words" content="關鍵字">
+    <meta name="description" content="測試網頁">
+    <meta name="anthor" content="Piesay">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2,minimus-scale=0.5">
+    <title>Piesay的網頁-z字形</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "微軟正黑體", Helvetica, sans-serif;
+        }
+
+        .header {
+            text-align: center;
+            padding: 5px;
+        }
+
+        .container {
+            padding: 60px;
+        }
+
+        .row {
+            height: 460px;
+            position:relative;
+        }
+
+        .column-66 {
+            float: left;
+            width: 66%;
+            padding: 20px;
+        }
+
+        .column-33 {
+            float: left;
+            width: 33%;
+            padding: 20px;
+        }
+        /*內部調整*/
+        h1{
+            margin: 15px;
+            font-size: 64px;
+        }
+        b{
+            font-size: 48px;
+            margin: 0;
+            color: rgb(166, 119, 211);
+        }
+        button{
+            border: none;
+            color: white;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: rgb(166, 119, 211);
+            border-radius: 15px;
+            position: absolute;
+            bottom: 20px;
+        }
+        img{
+            height: 400px;
+            width: 100%;
+            object-fit: cover;    /*圖片放入方法*/
+        }
+        img{
+            height: 400px;
+            width: 100%;
+            object-fit:cover;
+        }
+
+        /* 自訂樣式 */
+        .red_p{
+            color: red;
+        }
+        .red_bg{
+            background-color: red;
+        }
+        .bg_beige{
+            background-color:beige;
+        }
+        .xlarge-text{
+            font-size: 36px;
+        }
+        .large-text{
+            font-size: 24px;
+        }
+        .small-text{
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header bg_beige">
+        <h4>Z標題描述說明</h4>
+        <p>111111111111</p>
+    </div>
+    <!-- 這是註解 -->
+    <div class="containdr">
+        <div class="row">
+            <div class="column-66">
+                <h1>22222222222222</h1>
+                <b>33333333333333</b>
+                <p><span class="xlarge-text">444444</span>44444444</p>
+                <button>下載APP</button>
+            </div>
+            <div class="column-33">
+                <img src="images/logo.jpg" alt="logo">
+            </div>
+        </div>
+    </div>
+    <!-- 這是註解 -->
+    <div class="containdr bg_beige">
+        <div class="row">
+            <div class="column-66">
+                <img src="images/animal.jpg" alt="animal">
+
+            </div>
+            <div class="column-33">
+                <h1>5555555555555</h1>
+                <b class="red_p">6666666666</b>
+                <p class="large-text">77777777777</p>
+                <button class="red_bg">下載APP</button>
+            </div>
+        </div>
+    </div>
+    <!-- 這是註解 -->
+    <div class="containdr ">
+        <div class="row">
+            <div class="column-33">
+                <img src="images/logo.jpg" alt="logo">
+
+            </div>
+            <div class="column-66">
+                <h1>88888888888888888</h1>
+                <b>99999999999999</b>
+                <p><span class="xlarge-text">10101010</span>0101010</p>
+                <button>下載APP</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

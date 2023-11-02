@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<!-- 這是註解 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="key words" content="關鍵字">
+    <meta name="description" content="測試網頁">
+    <meta name="anthor" content="Piesay">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2,minimus-scale=0.5">
+    <title>Piesay的網頁-綜合版面</title>
+    <style>
+        /*整體*/
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f1f1f1;
+        }
+
+        /*首頁*/
+        .hader {
+            padding: 30px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+        /*選單*/
+        .topnav {
+            background: black;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        /*選單項目*/
+        .topnav a {
+            float: left;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /*變色*/
+        .topnav a:hover {
+            background-color: #f2f2f2;
+            color: black;
+        }
+
+        .topnav a:last-child {
+            float: left;
+        }
+
+        /*左欄*/
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+
+        /*右欄*/
+        .rightcolumn {
+            float: right;
+            width: 25%;
+            padding-left: 20px;
+        }
+
+        /*內容*/
+        .card {
+            margin-top: 20px;
+            background: white;
+            padding-left: 20px;
+        }
+
+        /*假圖*/
+        .fakeimg {
+            background: #aaa;
+            padding: 10px;
+        }
+
+        .big_pic {
+            height: 200px;
+        }
+
+        .small_pic {
+            height: 200px;
+        }
+
+        /*頁尾*/
+        .footer {
+            text-align: center;
+            background: #aaa;
+            clear: both;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>練習網站</h1>
+        <p>網站內容文字</p>
+    </div>
+    <div class="topnav">
+        <a href="#">連結1</a>
+        <a href="#">連結2</a>
+        <a href="#">連結3</a>
+        <a href="#">連結4</a>
+    </div>
+    <div class="row">
+
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>內文標題文字</h2>
+                <h5>標題描述說明 8月 1日 2022</h5>
+                <div class="fakeimg big_pic">假圖區塊</div>
+                <p>文字內容1</p>
+                <p>222222222222222222222222222222222222222222</p>
+            </div>
+            <div class="card">
+                <h2>底欄標題文字</h2>
+                <h5>底欄描述說明 8月 1日 2022</h5>
+                <div class="fakeimg big_pic">假圖區塊</div>
+                <p>1111111111111111111111111111111111111111111111111111111111111</p>
+                <p>22222222222222222222222222222222222222222222222</p>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>側欄標題文字</h2>
+                <div class="fakeimg mall_pic">假圖區塊</div>
+                <p>!@#$%^&*()^&%^$%</p>
+            </div>
+            <div class="card">
+                <h2>最新文章</h2>
+                <div class="fakeimg mall_pic">假圖區塊1</div>
+                <div class="fakeimg mall_pic">假圖區塊2</div>
+                <div class="fakeimg mall_pic">假圖區塊3</div>
+            </div>
+            <div class="card">
+                <h2>訂閱網站</h2>
+                <p>!@#$%^&&^%$#$%^&</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>網站版權宣告</h2>
+        <p>748496489652</p>
+    </div>
+
+</body>
+
+</html>

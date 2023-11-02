@@ -1,0 +1,25 @@
+
+a:link{
+    color: #fc2340;
+    text-decoration: none;
+}
+a:hover{
+    color: #3d3c3c;
+    text-decoration: underline;
+}
+a:active{
+    color: #120ec9;
+    text-decoration: none;
+}
+a:visited{
+    color: #701160;
+    text-decoration: none;
+}
+li:nth-child(odd){
+    background-color: aquamarine;
+    color: black;
+}
+li:nth-child(even){
+    background-color: rgb(8, 226, 55);
+    color: rgb(211, 24, 71);
+}
